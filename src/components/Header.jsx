@@ -7,7 +7,19 @@ function Header() {
 
   return (
     <header className={styles.header}>
-      <div className={styles.container}>
+      <div className={styles.container + ' ' + styles.inner}>
+        <div className={styles['laptop-container']}>
+          <div>hello</div>
+          <p>Free shipping from above AUD 400!</p>
+          <div>hello</div>
+        </div>
+        <div className={styles['mobile-container'] + ' ' + styles.marquee}>
+          <p>
+            All our diamond jewelry is crafted with natural diamonds, certified by internationally recognized laboratories, and set in hallmark-certified gold for assured purity and quality.
+          </p>
+        </div>
+      </div>
+      {/* <div className={styles.container}>
         <Link to="/" className={styles.logo}>
           Kanika Diamonds
         </Link>
@@ -17,7 +29,7 @@ function Header() {
           <Link to="/cart">Cart ({count})</Link>
           <Link to="/login">Login</Link>
         </nav>
-      </div>
+      </div> */}
     </header>
   );
 }

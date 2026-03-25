@@ -13,7 +13,7 @@ function App() {
   return (
     <>
       <Header />
-      <Routes>
+      {/* <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/shop" element={<Shop />} />
         <Route path="/product/:id" element={<ProductDetail />} />
@@ -22,7 +22,7 @@ function App() {
         <Route path="/register" element={<Register />} />
         <Route path="/success" element={<Success />} />
       </Routes>
-      <Footer />
+      <Footer /> */}
     </>
   );
 }
