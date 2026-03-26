@@ -27,7 +27,7 @@
 }
 
 
-.laptop-view{
+.laptop-view {
   background-color: var(--primary-font-color);
   width: 100%;
   padding: 1rem 2rem;
@@ -38,13 +38,13 @@
   color: aliceblue;
 }
 
-.input-container{
+.input-container {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.input-container{
+.input-container {
   background-color: rgb(240, 248, 255, 0.2);
   border-radius: 3rem;
   font-size: medium;
@@ -53,22 +53,23 @@
   padding: 0 1rem;
 }
 
-.input-container input{
+.input-container input {
   border: none;
   outline: none;
   width: fit-content;
   background: transparent;
+  color: white;
 }
 
-.input-container input::placeholder{
+.input-container input::placeholder {
   color: aliceblue;
 }
 
-.search{
+.search {
   width: 15px;
 }
 
-.navigation{
+.navigation {
   display: flex;
   width: 100%;
   flex-direction: row;
@@ -81,47 +82,108 @@
 .navigation-section {
   /* background-color: bisque; */
   cursor: pointer;
-}
-
-.logo{
-  width: 6rem;
-}
-
-.profile-section{
   display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 100px;
 }
 
-.search{
+.navigation-tabs{
+  display: flex;
+  flex-direction: row;
+  cursor: pointer;
+  gap: 30px;
+}
+
+.logo {
+  width: 9rem;
+  cursor: pointer;
+}
+
+.profile-section {
+  display: flex;
+  gap: 40px;
+}
+
+.search {
   display: flex;
   width: fit-content;
-  gap: 10px;
+  gap: 15px;
   /* flex-direction: row; */
   /* align-items: center; */
 }
 
-.search > span{
+.search>span {
   width: 15px;
+  color: white;
 }
 
-/* .navigation{
+.search>span>input{
+  color: white;
+}
 
-} */
+.profile {
+  display: none;
+  flex-direction: row;
+  gap: 30px;
+}
 
-@media (width <=768px) {}
+.mobileView-bottom-navigation {
+  width: 100%;
+  padding: 0.5rem 0;
+  background-color: rgb(236, 236, 236);
+  position: fixed;
+  bottom: 0;
+  left: 0;
+}
 
+.bottom-navigation-inner {
+  width: 100%;
+  display: none;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  font-size: 12px;
+}
 
-@media (width <=1024px) {
-  .marquee{
-    display: block;
-  }
+.bottom-navigation-inner>span {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 @media (width >1024px) {
-  .laptop-view{
+  .laptop-view {
+    display: flex;
+  }
+  .search{
+    display: none;
+  }
+}
+
+@media (width <=1024px) {
+  .marquee {
+    display: block;
+  }
+
+  .profile {
+    display: flex;
+  }
+
+  .bottom-navigation-inner {
     display: flex;
   }
 }
 
+@media (width <=768px) {}
+
+@media (width <=426px) {
+    .profile {
+    display: none;
+  }
+}
 
 
 @keyframes scroll {
