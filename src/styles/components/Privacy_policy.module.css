@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+.container {
+    width: 100%;
+    height: fit-content;
+    padding: 7rem 7rem;
+    font-size: 17.5px;
+}
+
+.heading {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    border-bottom: 0.5px solid rgb(207, 207, 207);
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.title {
+    font-size: 50px;
+    color: black;
+    font-family: "Cormorant Garamond", serif;
+    font-weight: 500;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 30px;
+    margin-top: 30px;
+    padding-bottom: 30px;
+    line-height: 30px;
+    border-bottom: 0.5px solid rgb(207, 207, 207);
+}
+
+.content-title{
+    color: rgb(62, 62, 62);
+    font-size: large;
+    font-weight: 600;
+}

@@ -1,11 +1,126 @@
 /* Footer styles */
-.footer {
-  background: #f8f9fa;
-  padding: 2rem 0;
-  margin-top: auto;
+.container{
+  width: 100%;
+  padding: 6rem 6rem;
 }
 
-.footer p {
+.footer-bottom{
+  width: 100%;
   text-align: center;
-  color: var(--text-light);
+  font-size: large;
+  padding: 0.5rem 0;
+  background-color: white;
+}
+
+.footer-bottom span{
+  color: black;
+}
+
+.inner-container{
+  width: 100%;
+  padding: 1rem;
+  display: flex;
+  flex-direction: row;
+}
+
+.logo-section{
+  width: 400px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  font-size: 17px;
+}
+
+.logo img{
+  width: 9rem;
+}
+
+.redirect-pages{
+  width: 100%;
+  padding: 0 2rem;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  justify-content: space-between;
+}
+
+.redirect-pages div{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  color: gray;
+}
+
+.redirect-pages div ul{
+  display: flex;
+  margin-top: 15px;
+  flex-direction: column;
+  gap: 15px;
+  color: rgb(173, 173, 173);
+  font-size: 17px;
+}
+
+.redirect-pages div ul a{
+  color: rgb(152, 152, 152);
+}
+.email{
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+}
+
+.mail-logo{
+  padding: 1rem;
+  background-color: white;
+}
+
+.mail-icon{
+  color: purple;
+  width: 1rem;
+}
+
+.social-links{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.5rem;
+  font-size: large;
+}
+
+.playstore{
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.playstore img{
+  width: 6rem;
+}
+
+.playstore p{
+  color: black;
+  font-weight: 500;
+}
+
+.social-media{
+  display: flex;
+  gap: 10px;
+}
+
+.social-media div{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.social-media p{
+  color: black;
+}
+
+.social-media a img{
+  width: 16px;
 }
