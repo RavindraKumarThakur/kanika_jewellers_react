@@ -7,5 +7,7 @@ import Instagram from "./instagram.svg?react";
 import Twitter from "./twitter.svg?react";
 import Basketball from "./basketball.svg?react";
 import Pinterest from "./pinterest.svg?react";
+import ArrowLeft from "./arrow-left.svg";
+import ArrowRight from "./arrow-right.svg";
 
-export {Search, Kanika_logo, Hamburger, Mail_icon, Facebook, Instagram, Twitter, Basketball, Pinterest};
+export {Search, Kanika_logo, Hamburger, Mail_icon, Facebook, Instagram, Twitter, Basketball, Pinterest, ArrowLeft, ArrowRight};

@@ -53,6 +53,10 @@ function Header() {
   return (
     <header className={styles.header}>
 
+      <div className={styles['header-temp']}>
+
+      </div>
+
       {/* upper part */}
       <div className={styles.container}>
 
