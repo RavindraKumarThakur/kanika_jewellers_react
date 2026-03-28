@@ -9,5 +9,19 @@ import Basketball from "./basketball.svg?react";
 import Pinterest from "./pinterest.svg?react";
 import ArrowLeft from "./arrow-left.svg";
 import ArrowRight from "./arrow-right.svg";
+import Icon_since from "./iconsince.png";
 
-export {Search, Kanika_logo, Hamburger, Mail_icon, Facebook, Instagram, Twitter, Basketball, Pinterest, ArrowLeft, ArrowRight};
+export {
+    Search, 
+    Kanika_logo, 
+    Hamburger, 
+    Mail_icon, 
+    Facebook, 
+    Instagram, 
+    Twitter, 
+    Basketball, 
+    Pinterest, 
+    ArrowLeft, 
+    ArrowRight,
+    Icon_since
+};

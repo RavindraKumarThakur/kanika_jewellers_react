@@ -76,7 +76,7 @@
 .navigation {
   display: flex;
   width: 100%;
-  background-color: aliceblue;
+  background-color: var(--body-bgcolor);
   align-items: center;
   justify-content: space-between;
   padding: 1rem 2rem;
