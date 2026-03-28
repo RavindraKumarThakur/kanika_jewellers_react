@@ -4,6 +4,7 @@
 .home_about {
     padding: 6rem 5rem;
     background-color: white;
+    border-bottom: 1px solid rgb(231, 231, 231);
 }
 
 .inner-section {
